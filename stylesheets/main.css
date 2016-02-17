@@ -1417,7 +1417,7 @@ header{width:270px;}
 #mainNav li > a {padding: 11px 10px 10px 195px;}
 
 /*About tab */
-#about{width:230px;margin-top:-150px;padding-top:150px;}
+#about{width:230px;}
 .info {margin-right:23px;}
 #skills1{margin-bottom: 10px;}
 a.vcardButton{margin-left:80px;}
