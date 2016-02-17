@@ -593,12 +593,14 @@ span.border {
 span.plus {
     background:url(../images/zoom.png) no-repeat;
     background-position: right bottom;
-    height: 130px;
-    left: 9px;
+    /*height: 130px;*/
+    height: 63%;
+    /*left: 9px;*/
     position: absolute;
     text-align: center;
     top: 9px;
-    width: 225px;
+    /*width: 225px;*/
+    width: 100%;
 	color:#558e6a;
 	z-index:100;
 
@@ -1352,7 +1354,7 @@ a.vcardButton{margin-left:49px;}
 ul#category {padding-left: 0;}
 ul#category li {padding: 3px 0px 3px 0px;}
 li.item h3{width:190px;}
-span.plus {left: 154px;top:79px;}
+span.plus {/*left: 154px;top:79px;*/}
 span.border { left: 51px;top: 165px;width: 90px;}
 #category li #animated-line{display:none;}
 
@@ -1423,7 +1425,7 @@ a.vcardButton{margin-left:80px;}
 /*Portfolio tab */
 #portfolio{width:230px;}
 span.border {top: 179px;left:58px;}
-span.plus {left:180px;}
+span.plus {/*left:180px;*/}
 ul#category {padding-left:0;}
 
 /*Blog tab */
