@@ -4,7 +4,7 @@ $(document).ready(function(){
 	
 		$('#wrapper').easytabs({
     	animate			: true,
-    	updateHash		: false,
+    	updateHash		: true,
     	transitionIn	:'slideDown',
     	transitionOut	:'slideUp',
     	animationSpeed	:800,
@@ -14,6 +14,22 @@ $(document).ready(function(){
 	  	transitionOutEasing: 'easeInOutExpo'
     
     });
+
+	$('#wrapper').bind('easytabs:after', function(evt, tab, panel, data) {
+  		if ( tab.hasClass('tab-about') ) {
+    		$('html, body').animate({
+        		scrollTop: $("#about").offset().top - 80
+    		}, 50);
+  		} else if ( tab.hasClass('tab-portfolio') ) {
+    		$('html, body').animate({
+        		scrollTop: $("#portfolio").offset().top - 80
+    		}, 50);
+  		} else if ( tab.hasClass('tab-contact') ) {
+    		$('html, body').animate({
+        		scrollTop: $("#contact").offset().top - 80
+    		}, 50);
+  		}
+	});
 	
 //--------------------------------- End tabs section setup --------------------------------//
 	
