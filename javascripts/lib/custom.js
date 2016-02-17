@@ -18,15 +18,15 @@ $(document).ready(function(){
 	$('#wrapper').bind('easytabs:after', function(evt, tab, panel, data) {
   		if ( tab.hasClass('tab-about') ) {
     		$('html, body').animate({
-        		scrollTop: $("#about").offset().top - 180
+        		scrollTop: $("#about").offset().top - 150
     		}, 800);
   		} else if ( tab.hasClass('tab-portfolio') ) {
     		$('html, body').animate({
-        		scrollTop: $("#portfolio").offset().top - 180
+        		scrollTop: $("#portfolio").offset().top - 150
     		}, 800);
   		} else if ( tab.hasClass('tab-contact') ) {
     		$('html, body').animate({
-        		scrollTop: $("#contact").offset().top - 180
+        		scrollTop: $("#contact").offset().top - 150
     		}, 800);
   		}
 	});
