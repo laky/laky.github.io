@@ -1410,9 +1410,9 @@ header{width:270px;}
 
 /*tabsContainer*/
 #tabsContainer {margin-left: 10px;width: 271px;}
-#img {margin-bottom: 2px;}
+#img {margin-bottom: 2px;height:323px;}
 #img img {width: 271px;}
-#img hgroup {top:196px;width:271px;}
+#img hgroup {top:245px;width:271px;}
 #mainNav li {width:267px;}
 #mainNav li > a {padding: 11px 10px 10px 195px;}
 
