@@ -26,7 +26,7 @@ html {
 
 
 body{
-	background:url(/images/pattern/pattern3.png) repeat ;
+	background:url(../images/pattern/pattern3.png) repeat ;
 	font:100% Arial,'Signika';
 	line-height:20px;
 	font-weight:normal;
@@ -91,60 +91,60 @@ header{
 }
 
 #mainNav li a.tab-about{
-	background-image: url(/images/about-ico.png);
+	background-image: url(../images/about-ico.png);
 	background-position: 14px 7px;
 	
 
 }
 
 #mainNav li a.tab-portfolio{
-	background-image: url(/images/folio-ico.png);
+	background-image: url(../images/folio-ico.png);
 	background-position: 14px 7px;
 
 }
 
 #mainNav li a.tab-blog{
-	background-image: url(/images/blog-ico.png);
+	background-image: url(../images/blog-ico.png);
 	background-position: 14px 7px;
 
 }
 
 #mainNav li a.tab-contact{
-	background-image: url(/images/contact-ico.png);
+	background-image: url(../images/contact-ico.png);
 	background-position: 14px 7px;
 
 }
 #mainNav li.active{
 	border-right: 5px solid #558e6a;
-	background:#fff  url(/images/nav-arrow-active.png) no-repeat 102% center;
+	background:#fff  url(../images/nav-arrow-active.png) no-repeat 102% center;
 	
 	
 	
 }
 
 #mainNav li.active .tab-about{
-	background-image: url(/images/about-ico-active.png);
+	background-image: url(../images/about-ico-active.png);
 	background-position: 14px 7px;
 	color:#558e6a;
 	
 }
 
 #mainNav li.active .tab-portfolio{
-	background-image: url(/images/folio-ico-active.png);
+	background-image: url(../images/folio-ico-active.png);
 	background-position: 14px 7px;
 	color:#558e6a;
 	
 }
 
 #mainNav li.active .tab-blog{
-	background-image: url(/images/blog-ico-active.png);
+	background-image: url(../images/blog-ico-active.png);
 	background-position: 14px 7px;
 	color:#558e6a;
 	
 }
 
 #mainNav li.active .tab-contact{
-	background-image: url(/images/contact-ico-active.png);
+	background-image: url(../images/contact-ico-active.png);
 	background-position: 14px 7px;
 	color:#558e6a;
 	
@@ -255,10 +255,10 @@ ul#socials li, ul#socials a {
 }
 
 
-ul#socials  li.fb{background: url(/images/social-sprite.png) no-repeat 0 0;}
-ul#socials  li.tw{background: url(/images/social-sprite.png) no-repeat -36px 0;}
-ul#socials  li.li{background: url(/images/social-sprite.png) no-repeat -72px 0;}
-ul#socials  li.vm{background: url(/images/social-sprite.png) no-repeat -108px 0;}
+ul#socials  li.fb{background: url(../images/social-sprite.png) no-repeat 0 0;}
+ul#socials  li.tw{background: url(../images/social-sprite.png) no-repeat -36px 0;}
+ul#socials  li.li{background: url(../images/social-sprite.png) no-repeat -72px 0;}
+ul#socials  li.vm{background: url(../images/social-sprite.png) no-repeat -108px 0;}
 
 ul#socials li.fb , ul#socials li.tw , ul#socials li.li, ul#socials  li.vm{
 -webkit-transition: background-position .3s ease-in-out;
@@ -266,10 +266,10 @@ ul#socials li.fb , ul#socials li.tw , ul#socials li.li, ul#socials  li.vm{
 -o-transition: background-position .3s ease-in-out;
 transition: background-position .3s ease-in-out;
 }
-ul#socials  li.fb:hover{background: url(/images/social-sprite.png) no-repeat 0 -31px;}
-ul#socials  li.tw:hover{background: url(/images/social-sprite.png) no-repeat -36px -31px;}
-ul#socials  li.li:hover{background: url(/images/social-sprite.png) no-repeat -72px -31px;}
-ul#socials  li.vm:hover{background: url(/images/social-sprite.png) no-repeat -108px -31px;}
+ul#socials  li.fb:hover{background: url(../images/social-sprite.png) no-repeat 0 -31px;}
+ul#socials  li.tw:hover{background: url(../images/social-sprite.png) no-repeat -36px -31px;}
+ul#socials  li.li:hover{background: url(../images/social-sprite.png) no-repeat -72px -31px;}
+ul#socials  li.vm:hover{background: url(../images/social-sprite.png) no-repeat -108px -31px;}
 
 
 /* End general style */ 
@@ -390,17 +390,17 @@ ul#socials  li.vm:hover{background: url(/images/social-sprite.png) no-repeat -10
 	height:17px;
 }
 
-#skills  li span.r1{background: url(/images/rating-sprite.png) no-repeat scroll 0 -36px}
-#skills  li span.r2{background: url(/images/rating-sprite.png) no-repeat scroll 0 -76px}
-#skills  li span.r3{background: url(/images/rating-sprite.png) no-repeat scroll 0 -76px}
-#skills  li span.r4{background: url(/images/rating-sprite.png) no-repeat scroll 0 -56px}
-#skills  li span.r5{background: url(/images/rating-sprite.png) no-repeat scroll 0 -76px}
+#skills  li span.r1{background: url(../images/rating-sprite.png) no-repeat scroll 0 -36px}
+#skills  li span.r2{background: url(../images/rating-sprite.png) no-repeat scroll 0 -76px}
+#skills  li span.r3{background: url(../images/rating-sprite.png) no-repeat scroll 0 -76px}
+#skills  li span.r4{background: url(../images/rating-sprite.png) no-repeat scroll 0 -56px}
+#skills  li span.r5{background: url(../images/rating-sprite.png) no-repeat scroll 0 -76px}
 
-#skills  li span.r6{background: url(/images/rating-sprite.png) no-repeat scroll 0 -56px}
-#skills  li span.r7{background: url(/images/rating-sprite.png) no-repeat scroll 0 -76px}
-#skills  li span.r8{background: url(/images/rating-sprite.png) no-repeat scroll 0 -36px}
-#skills  li span.r9{background: url(/images/rating-sprite.png) no-repeat scroll 0 -76px}
-#skills  li span.r10{background: url(/images/rating-sprite.png) no-repeat scroll 0 -56px}
+#skills  li span.r6{background: url(../images/rating-sprite.png) no-repeat scroll 0 -56px}
+#skills  li span.r7{background: url(../images/rating-sprite.png) no-repeat scroll 0 -76px}
+#skills  li span.r8{background: url(../images/rating-sprite.png) no-repeat scroll 0 -36px}
+#skills  li span.r9{background: url(../images/rating-sprite.png) no-repeat scroll 0 -76px}
+#skills  li span.r10{background: url(../images/rating-sprite.png) no-repeat scroll 0 -56px}
 
 #skills  li span.language-level{font-weight: normal; color: #558E6A}
 
@@ -443,7 +443,7 @@ a.vcardButton {
 	-webkit-border-radius:3px;
 	font-size:12px;
 	color:#ffffff;
-	background-image: url(/images/bg-button.png);
+	background-image: url(../images/bg-button.png);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	-moz-transition: all 0.4s ease-in-out;
@@ -456,7 +456,7 @@ a.vcardButton {
 a.vcardButton:hover{
 	background:#777777;
 	border:1px solid #777777;
-	background-image: url(/images/bg-button.png);
+	background-image: url(../images/bg-button.png);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -591,7 +591,7 @@ span.border {
 }
 
 span.plus {
-    background:url(/images/zoom.png) no-repeat;
+    background:url(../images/zoom.png) no-repeat;
     background-position: right bottom;
     height: 130px;
     left: 9px;
@@ -692,10 +692,10 @@ ul.blogInfo-no-image li{
 	padding-left:26px;
 }
 
-#blog .blogPost ul li.whois{background: url(/images/whois-ico.png) no-repeat 0 0;}
-#blog .blogPost ul li.cat{background: url(/images/cat-ico.png) no-repeat 0 1px;}
-#blog .blogPost ul li.date{background: url(/images/date-ico.png) no-repeat 0 1px;}
-#blog .blogPost ul li.comment{background: url(/images/comment-ico.png) no-repeat 0 2px;}
+#blog .blogPost ul li.whois{background: url(../images/whois-ico.png) no-repeat 0 0;}
+#blog .blogPost ul li.cat{background: url(../images/cat-ico.png) no-repeat 0 1px;}
+#blog .blogPost ul li.date{background: url(../images/date-ico.png) no-repeat 0 1px;}
+#blog .blogPost ul li.comment{background: url(../images/comment-ico.png) no-repeat 0 2px;}
 
 #blog p{
 	font-size:12px;
@@ -711,7 +711,7 @@ blockquote.style1{
 	margin-bottom:20px;
 	font-size:12px;
 	font-style:italic;
-	background: url(/images/quote.png) repeat-y 0 0;
+	background: url(../images/quote.png) repeat-y 0 0;
 	display:block;
 	padding-left:26px;
 }
@@ -749,7 +749,7 @@ blockquote.style3{
 	-webkit-border-radius:3px;
 	font-size:12px;
 	color:#ffffff;
-	background-image: url(/images/bg-button.png);
+	background-image: url(../images/bg-button.png);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	-moz-transition: all 0.4s ease-in-out;
@@ -762,7 +762,7 @@ blockquote.style3{
 .btnMore:hover{
 	background:#777777;
 	border:1px solid #777777;
-	background-image: url(/images/bg-button.png);
+	background-image: url(../images/bg-button.png);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -861,7 +861,7 @@ blockquote.style3{
 	font-size:12px;
 	color:#ffffff;
 	margin-top:3px;
-	background-image: url(/images/bg-button.png);
+	background-image: url(../images/bg-button.png);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	-moz-transition: all 0.4s ease-in-out;
@@ -873,7 +873,7 @@ blockquote.style3{
 .comments .reply-btn a:hover{
 	background:#558e6a;
 	border:1px solid #558e6a;
-	background-image: url(/images/bg-button.png);
+	background-image: url(../images/bg-button.png);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -901,7 +901,7 @@ blockquote.style3{
 	-webkit-border-radius:3px;
 	font-size:12px;
 	color:#ffffff;
-	background-image: url(/images/bg-button.png);
+	background-image: url(../images/bg-button.png);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	border:1px solid #777;
@@ -915,7 +915,7 @@ blockquote.style3{
 .post-comment a:hover{
 	background:#558e6a;
 	border:1px solid #558e6a;
-	background-image: url(/images/bg-button.png);
+	background-image: url(../images/bg-button.png);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -1002,7 +1002,7 @@ blockquote.style3{
 	font-size:12px;
 	color:#ffffff;
 	cursor:pointer;
-	background-image: url(/images/bg-button.png);
+	background-image: url(../images/bg-button.png);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -1065,7 +1065,7 @@ blockquote.style3{
 .selected{
 	background:#558e6a;
 	border:1px solid #558e6a;
-	background-image: url(/images/bg-button.png);
+	background-image: url(../images/bg-button.png);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	border-radius:3px;
@@ -1186,7 +1186,7 @@ blockquote.style3{
 	font-size:11px;
 	color:#ffffff;
 	cursor:pointer;
-	background-image: url(/images/bg-button.png);
+	background-image: url(../images/bg-button.png);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -1404,7 +1404,7 @@ header{width:270px;}
 #edge {left: 226px;}
 
 /*Main nav*/
-#mainNav li.active {background: url("/images/nav-arrow-active.png") no-repeat scroll 101% center #FFFFFF;}
+#mainNav li.active {background: url("../images/nav-arrow-active.png") no-repeat scroll 101% center #FFFFFF;}
 
 /*tabsContainer*/
 #tabsContainer {margin-left: 10px;width: 271px;}
@@ -1433,10 +1433,10 @@ ul#category {padding-left:0;}
 ul.blogInfo {background:rgba(255, 255, 255, 0.90);width:198px;padding-right:29px;}
 ul.blogInfo-no-image {width:180px;}
 ul.blogInfo li {margin-left: 35px;}	
-#blog .blogPost ul li.comment {background: url("/images/comment-ico.png") no-repeat  0 4px transparent;}
-#blog .blogPost ul li.date {background: url("/images/date-ico.png") no-repeat  0 3px transparent;}
-#blog .blogPost ul li.cat {background: url("/images/cat-ico.png") no-repeat scroll 0 3px transparent;}
-#blog .blogPost ul li.whois {background: url("/images/whois-ico.png") no-repeat scroll 0 3px transparent;} 
+#blog .blogPost ul li.comment {background: url("../images/comment-ico.png") no-repeat  0 4px transparent;}
+#blog .blogPost ul li.date {background: url("../images/date-ico.png") no-repeat  0 3px transparent;}
+#blog .blogPost ul li.cat {background: url("../images/cat-ico.png") no-repeat scroll 0 3px transparent;}
+#blog .blogPost ul li.whois {background: url("../images/whois-ico.png") no-repeat scroll 0 3px transparent;} 
 .replyForm input[type="text"], input[type="email"], .commentForm input[type="text"], input[type="email"] {width: 150px;}
 .replyForm textarea, .commentForm textarea {width: 151px;}
 #replyForm, #commentForm {margin-left: 15px;width:180px;} 
