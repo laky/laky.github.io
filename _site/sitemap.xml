@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://0.0.0.0:4000/about</loc>
+<lastmod>2022-01-16T12:55:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/contact</loc>
+<lastmod>2022-01-16T12:55:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/thanks</loc>
+<lastmod>2022-01-16T12:55:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/blog/plockton</loc>
+<lastmod>2021-09-21T10:10:11+01:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/project/demo-project</loc>
+<lastmod>2018-06-30T01:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/projects/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/</loc>
+</url>
+</urlset>
