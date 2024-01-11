@@ -4,6 +4,58 @@
 
 // - - - - - - - - - - - - - - - - - -
 
+.chat-container {
+	font-family: Arial, sans-serif;
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+}
+.chat-container .message {
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.chat-container .message p, .chat-container .message ul, .chat-container .message ol {
+	margin-bottom: 10px;
+	line-height: 1.2em;
+	padding: 5px;
+	font-size: 16px;
+}
+.chat-container .message p {
+	max-width: 95%;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.chat-container .message ul, .chat-container .message ol {
+	max-width: 90%;
+	margin: 0px auto;
+}
+.chat-container .message ul li, .chat-container .message ol li {
+	margin-bottom: 5px;
+}
+.chat-container .user-message {
+	background-color: #f0f0f0;
+	text-align: left;
+}
+.chat-container .chatgpt-message {
+	background-color: #d0e0f0;
+	text-align: left;
+}
+.chat-container .user-name, .chatgpt-name {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.chat-container img {
+	max-width: 100%;
+	height: auto;
+	border: 1px solid #ccc;
+}
+.chat-container pre {
+	max-width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
 .blog {
 	margin-top: 0;
 	padding: 20px 0 0;
@@ -89,7 +141,7 @@
 }
 
 .blog-post__title {
-	
+
 }
 
 .blog-post__subtitle {
